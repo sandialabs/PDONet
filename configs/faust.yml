@@ -1,0 +1,13 @@
+note: # use for experiment notes at run time
+batch_size: 4
+learning_rate: 0.01
+weight_decay: 0.0001
+device: cuda
+epochs: 100
+edge_dropout: 0
+dropout_rate: 0.3
+model_options:
+    depth: 8
+    grid_scale: [-1.2432, 1.1599]
+    initial_features: 16
+    max_features: 128

@@ -1,0 +1,17 @@
+note: # use for experiment notes at run time
+dataset: MNIST  # CIFAR10, CIFAR100
+batch_size: 128
+learning_rate: 0.0002
+weight_decay: 0.0001
+device: cuda
+epochs: 100
+prune_edges: False
+hierarchical: False
+edge_dropout: 0.45
+model_options:
+    depth: 7
+    dropout_rate: 0.5
+    grid_scale: [0, 28]
+    initial_features: 128
+    max_features: 512
+    voxels_at_depth: 3

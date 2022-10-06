@@ -1,0 +1,3 @@
+dataset: CIFAR10
+model_options:
+    grid_scale: [0, 32]
